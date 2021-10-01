@@ -32,9 +32,10 @@ def play_word(player, word):
             update_point_totals()
     return value
 
+# Turns in game
 new_play = play_word('player1', 'YESTERDAY')            
 new_play2 = play_word('Prof Reader', 'CONGENIALITY')
 
 print(player_to_words)
 print(players_to_points)
-print(1)
+
